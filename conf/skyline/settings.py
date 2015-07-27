@@ -32,7 +32,7 @@ MINI_DURATION = 3600
 
 # If you have a Graphite host set up, set this metric to get graphs on
 # Skyline and Horizon. Don't include http:// since this is used for carbon host as well.
-GRAPHITE_HOST = '192.168.1.136'
+GRAPHITE_HOST = '127.0.0.1'
 
 # The Graph url used to link to Graphite (Or another graphite dashboard)
 # %s will be replaced by the metric name
