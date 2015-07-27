@@ -22,7 +22,7 @@ Built using [Phusion's base image](https://github.com/phusion/baseimage-docker) 
 * install docker.io
 * clone repository
 * cd to repository
-* build image `docker build -t docker-skyline`
+* build image `docker build -t docker-skyline .`
 * run container `docker run -p 80:80 -p 1500:1500 -p 2003:2003 -p 8125:8125 docker-skyline`
 
 ### Mapped Ports
