@@ -1,4 +1,4 @@
-# Docker Image for Graphite, Statsd & Skyline
+# Docker Image for Skyline
 
 ## Get Anomaly Detection for time series up and running in minutes
 
