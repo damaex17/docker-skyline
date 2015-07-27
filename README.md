@@ -22,8 +22,8 @@ Built using [Phusion's base image](https://github.com/phusion/baseimage-docker) 
 * install docker.io
 * clone repository
 * cd to repository
-* build image `docker build -t docker-graphite-statsd-skyline`
-* run container `docker run -p 80:80 -p 1500:1500 -p 2003:2003 -p 8125:8125 docker-graphite-statsd-skyline`
+* build image `docker build -t docker-skyline`
+* run container `docker run -p 80:80 -p 1500:1500 -p 2003:2003 -p 8125:8125 docker-skyline`
 
 ### Mapped Ports
 
@@ -39,5 +39,3 @@ Built using [Phusion's base image](https://github.com/phusion/baseimage-docker) 
 * send data in graphite format to port 2003 (relay) or 8125 (statsd)
 * open graphite dashboard in a browser at [http://localhost/dashboard](http://localhost/dashboard)
 * open skyline app in a browser at [http://localhost:1500](http://localhost:1500)
-
-![graphite_skyline.png](https://bitbucket.org/repo/MLxrza/images/3128802284-graphite_skyline.png)
