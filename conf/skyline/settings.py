@@ -199,6 +199,10 @@ MAX_RESOLUTION = 1000
 # you might skip things you don't intend to.
 SKIP_LIST = [
     'example.statsd.metric',
+    'carbon.relays',
+    'carbon.aggregator',
+    'carbon.agents',
+    'stats.',
     # if you use statsd, these can result in many near-equal series
     #'_90',
     #'.lower',
