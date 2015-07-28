@@ -203,6 +203,7 @@ SKIP_LIST = [
     'carbon.aggregator',
     'carbon.agents',
     'stats.',
+    'skyline.',
     # if you use statsd, these can result in many near-equal series
     #'_90',
     #'.lower',
