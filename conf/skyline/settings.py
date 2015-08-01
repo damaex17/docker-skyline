@@ -105,7 +105,7 @@ ALGORITHMS = [
 
 # This is the number of algorithms that must return True before a metric is
 # classified as anomalous.
-CONSENSUS = 3
+CONSENSUS = 5
 
 # This is to enable second order anomalies. This is an experimental feature, so
 # it's turned off by default.
@@ -203,6 +203,7 @@ SKIP_LIST = [
     'carbon.aggregator',
     'carbon.agents',
     'stats.',
+    'skyline.',
     # if you use statsd, these can result in many near-equal series
     #'_90',
     #'.lower',
